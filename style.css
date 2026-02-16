@@ -1,0 +1,157 @@
+/* ==== GARDER CETTE REGLE ==== */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ==== AJOUTER VOS REGLES CSS ICI ==== */
+
+header{
+    
+    z-index: 1000;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: #d02020;
+    font-size:20px;
+    font-family:sans-serif ;
+   
+    height: 200px;
+    width: 100%;
+    border-bottom: 2px; 
+    border-bottom: #d02020; 
+    h1{
+        text-align:right ;
+        height: 80px;
+        letter-spacing: 5px;
+    }
+    img{
+        margin-right: 200px;
+    }
+}
+
+main{
+    padding-top: 200px;
+    background-image: url(back.png);
+   
+}
+section{height: 80%;
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: 20px;
+margin-right: 20px;
+color: #e0e0e0;
+
+h2{
+    color: #d02020;
+    border-left: 5px;
+    border-left: solid;
+    border-left: #d02020;
+    font-size: 24px;
+margin-bottom: 30px;
+padding-left: 40px;
+}
+h3{
+    color: #d02020;
+}
+}
+
+div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap fixed;
+}
+
+
+article{
+    margin-left: 150px;
+    max-width: 300px;
+border-radius: 8px;
+padding: 20px;
+border: 1px;
+border: solid;
+border-color: #d02020;
+background-color: #000 rgba(red, green, blue, alpha);
+
+
+p{
+    text-align: justify;
+}
+}
+
+table{
+    height: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-color: #000;
+    margin-left: 60px;
+    width: 1600px;
+    align-content: center;
+   
+    thead{
+        
+        text-align: center;
+        background-color: #d02020;
+        color: #e0e0e0;
+        text-decoration: solid;
+    }
+    th td{
+        padding: 15px;
+        border-bottom: 1px;
+        border-bottom: solid;
+        border-bottom-color: #333;
+         text-decoration: solid;
+    }
+}
+td.droite{
+    text-align: right;
+}
+
+form{
+    margin-left: 600px;
+    width: 500px;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #d02020;
+    opacity: 0.4;
+
+}
+label{
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+}
+input{font-size: 16px;
+
+submit{
+    
+    background-color: #d02020;
+color: #e0e0e0;
+padding: 10px;
+border: 0;}
+
+range{accent-color:#d02020 ;}
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+     background-color: black;
+    color: #e0e0e0;
+    font: size 1em;;
+    font-family:sans-serif ;
+    padding: 40px;
+}
