@@ -86,7 +86,7 @@
         <section >
 
 <h2>  Formulaire</h2>
-<form action="formulair">
+<form onsubmit="redirectToSite(event)">
     <fieldset>
 
 <label for="nom">nom :</label>
@@ -110,7 +110,13 @@
       &copy; 2026 - Fan Club Français de Stranger Things
 </footer>
 
-   
+     <script>
+function redirectToSite(event) {
+    event.preventDefault(); // stop normal submission
+    window.location.href = "https://www.netflix.com/title/80057281";
+}
+</script>
+
     
 </body>
 </html>
